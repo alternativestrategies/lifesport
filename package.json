@@ -2,7 +2,7 @@
   "name": "lifesports",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
     "start:prod": "node index.js",
@@ -10,7 +10,7 @@
     "client": "cd client && npm run start",
     "install": "cd client && npm install",
     "build": "cd client && npm run build",
-    "heroku-postbuild": "cd client && npm run build"
+    "heroku-postbuild": "npm run build"
   },
   "keywords": [],
   "author": "",
