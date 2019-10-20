@@ -1,15 +1,22 @@
 
-# LifeSports Challlenge and Hackathon
+# [LifeSports Challenge and Hackathon](https://lifesport-practice.herokuapp.com/)
 
-### About Us
+API endpoints written for the Lifesports Exercise Log using Node.js, Express, and React
 
+## 🛠 Installation & Set Up
+1. Install NPM using NVM
+```sh
+   nvm install
+```
 
-### Build Components
+2. Install NPM dependencies
+```sh
+npm install
+```
 
-### Usage
-
-```js
-
+3. Start development server
+```sh
+npm start
 ```
 
 #### Challenge Instructions
